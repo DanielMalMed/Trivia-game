@@ -26,6 +26,7 @@ while (playAgain === true){
      
     let userChoice = window.prompt("Would you like to play the game again? Answer yes or no.")
     if (userChoice === "yes") {
+        //line 30 added so score become 0 again upon playing again.
         userScore = 0        
         playAgain = true
             
